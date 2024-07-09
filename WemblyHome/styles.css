@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "open sans";
+}
+
+
+.hero{
+    background-image: url("images/Wembley.jpg");
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#head {
+    color: white;
+    font-size: 50px;
+    padding: 5px 15px;
+    margin-top: 90px;
+    background-color: rgb(61, 150, 201);
+    border-radius: 10px;
+    animation: fade-up 1s;
+}
+
+#subhead {
+    color: white;
+    font-size: 16px;
+    width: 400px;
+    margin: 0 0 120px 0;
+    background-color: #2E5C96;
+    border-radius: 10px;
+    padding: 5px 15px;
+    animation: fade-up 1s;
+}
+
+.activities{
+    margin: 0;
+    background: #F2FAEE;
+}
+
+#act-head {
+    margin: 0;
+    padding: 35px 0 35px 0;
+    font-size: 30px;
+}
+
+.act-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.act-info {
+    padding: 15px;
+}
+
+.head-info {
+    font-size: 16px;
+    width: 220px;
+    font-weight: bold;
+}
+
+.info {
+    font-size: 15px;
+    width: 220px;
+}
+
+.act-img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+
+.guide {
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 320px;
+    padding: 20px;
+    border-radius: 6px;
+    border-bottom: 10px solid #2E5C96;
+}
+
+#james {
+    width: 300px;
+    border-radius: 5%;
+}
+
+#guide-info {
+    width: 400px;
+}
+
+@keyframes fade-up {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
